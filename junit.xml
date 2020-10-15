@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="6" errors="0" time="115.316">
+  <testsuite name="test suite 1" errors="0" failures="2" skipped="0" timestamp="2020-10-15T01:59:20" time="38.995" tests="2">
+    <testcase classname="test suite 1 should be logged in" name="test suite 1 should be logged in" time="30.025">
+      <failure>Error: thrown: &quot;Exceeded timeout of 30000 ms for a test.
+Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.&quot;
+    at C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:17:3
+    at _dispatchDescribe (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\index.js:67:26)
+    at describe (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\index.js:30:5)
+    at Object.&lt;anonymous&gt; (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:7:1)
+    at Runtime._execModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:1217:24)
+    at Runtime._loadModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:828:12)
+    at Runtime.requireModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:679:10)
+    at jestAdapter (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:147:13)</failure>
+    </testcase>
+    <testcase classname="test suite 1 should always fail" name="test suite 1 should always fail" time="2.848">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+    at C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:29:15
+    at step (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:34:23)
+    at Object.next (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:15:53)
+    at fulfilled (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:6:58)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="test suite 1" errors="0" failures="2" skipped="0" timestamp="2020-10-15T01:59:59" time="36.629" tests="2">
+    <testcase classname="test suite 1 should be logged in" name="test suite 1 should be logged in" time="30.02">
+      <failure>Error: thrown: &quot;Exceeded timeout of 30000 ms for a test.
+Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.&quot;
+    at C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:17:3
+    at _dispatchDescribe (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\index.js:67:26)
+    at describe (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\index.js:30:5)
+    at Object.&lt;anonymous&gt; (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:7:1)
+    at Runtime._execModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:1217:24)
+    at Runtime._loadModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:828:12)
+    at Runtime.requireModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:679:10)
+    at jestAdapter (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:147:13)</failure>
+    </testcase>
+    <testcase classname="test suite 1 should always fail" name="test suite 1 should always fail" time="2.861">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+    at C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:29:15
+    at step (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:34:23)
+    at Object.next (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:15:53)
+    at fulfilled (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:6:58)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="test suite 1" errors="0" failures="2" skipped="0" timestamp="2020-10-15T02:00:36" time="34.993" tests="2">
+    <testcase classname="test suite 1 should be logged in" name="test suite 1 should be logged in" time="30.009">
+      <failure>Error: thrown: &quot;Exceeded timeout of 30000 ms for a test.
+Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.&quot;
+    at C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:17:3
+    at _dispatchDescribe (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\index.js:67:26)
+    at describe (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\index.js:30:5)
+    at Object.&lt;anonymous&gt; (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:7:1)
+    at Runtime._execModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:1217:24)
+    at Runtime._loadModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:828:12)
+    at Runtime.requireModule (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-runtime\build\index.js:679:10)
+    at jestAdapter (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:147:13)</failure>
+    </testcase>
+    <testcase classname="test suite 1 should always fail" name="test suite 1 should always fail" time="2.204">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+    at C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:29:15
+    at step (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:34:23)
+    at Object.next (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:15:53)
+    at fulfilled (C:\D365\POCs\try-jest-playwright-master\try-jest-playwright-master\e2e\index.spec.ts:6:58)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
